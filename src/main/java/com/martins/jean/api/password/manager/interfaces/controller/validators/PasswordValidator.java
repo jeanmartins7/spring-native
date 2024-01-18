@@ -1,8 +1,9 @@
 package com.martins.jean.api.password.manager.interfaces.controller.validators;
 
 import com.martins.jean.api.password.manager.interfaces.controller.validators.validation.constraint.Password;
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
