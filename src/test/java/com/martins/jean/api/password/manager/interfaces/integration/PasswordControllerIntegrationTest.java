@@ -22,7 +22,7 @@ class PasswordControllerIntegrationTest {
     private TestRestTemplate testRestTemplate;
     @LocalServerPort
     private int port;
-
+                        
     @BeforeEach
     void setUp() throws URISyntaxException {
         String baseUrl = "http://localhost:" + port + "/api/password-manager/v1/verify";
